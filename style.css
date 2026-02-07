@@ -1,0 +1,326 @@
+*{
+    margin:0px;
+    border:border-box;
+    font-family:  'Arial Narrow';
+}
+.navbar{
+    height:60px;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+.navlogo{
+    height:50px;
+    width:100px
+}
+.logo{
+    background-image: url("images.png");
+    height:50px;
+    width:100%;
+    background-size:cover;
+}
+.border{
+    border:2px transparent;
+}
+.border :hover{
+    border:1px solid white;
+}
+.loc{
+    display:flex;
+    align-items: center;
+}
+#first{
+    font-size: 0.90rem;
+    color:#cccccc;
+    margin-left:15px;
+}
+#second{
+    font-size: 1.1rem;
+    margin:5px
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius:15px;
+}
+.log2{
+    background-color: orange;
+    border-radius: 2px;
+    width:30px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.side{
+    width:500px;
+    height:25px;
+    border-radius:2px;
+    border:none;
+    
+}
+#hel{
+    font-size: 0.80rem;
+}
+#AL{
+    font-size: 1.1rem;
+}
+#order{
+    font-size: 0.80rem;
+}
+#return{
+    font-size: 1.1rem;
+}
+.cart{
+    display:flex;
+}
+.start{
+    height:45px;
+    background-color:#222f3d;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#pannel{
+    display:flex;
+    width:75%;
+    margin-left:10px;
+    font-size:0.90rem;
+    
+}
+#pannel p{
+    display:inline;
+    margin-left:18px;
+}
+.hero{
+    background-image: url("hero.jpg");
+    height:380px;
+    width:100%;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.roww{
+    background-color:white;
+    color:black;
+    height:30px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:10px;
+
+}
+.shop{
+    background-color: #e2e7e6;
+    display:flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 350px;
+    width:23%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin:10px;
+    
+}
+.imagec{
+    height: 300px ;
+    background-image:url("women.jpeg");
+    background-size: cover;
+    display:flex;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.imagespace{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box p{
+    color:blue;
+}
+.imagee{
+    height: 300px ;
+    background-image: url("electroni.jpg");
+    background-size:contain;
+    display:flex;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+.image2space{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.imagea{
+    height: 300px ;
+    background-image:url("acc.jpg");
+    background-size:contain;
+    display:flex;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.imagea{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.imagem{
+    height: 300px;
+    background-image: url("casual.jpg.webp");
+    background-size: cover;
+    display:flex;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.image4space{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.shop2{
+    background-color: #e2e7e6;
+    display:flex;
+    justify-content: space-evenly;
+}
+.box0{
+    height: 350px;
+    width:23%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin:10px;
+}
+.box0 p{
+    color:blue;
+}
+.imaget{
+    height: 300px;
+    background-image:url("toys.jpg");
+    background-size:cover;
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image5space{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.imageS{
+    height:300px;
+    background-image:url("shoes.jpg") ;
+    background-size: cover;
+    display:flex;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.image6space{
+    margin-left:10px;
+    margin-right:10px;
+}
+.imageB{
+    height:300px;
+    background-image:url("bags.jpg") ;
+    background-size: cover;
+    display:flex;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.image7space{
+    margin-left:10px;
+    margin-right:10px;
+
+}
+.imageG{
+    height:300px;
+    background-image:url("gift.jpg") ;
+    background-size: cover;
+    display:flex;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+.image8space{
+    margin-left:10px;
+    margin-right:10px;
+
+}
+.Back{
+    height:50px;
+    background-color: #37475a;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.90rem;
+}
+.big{
+    height:400px;
+    background-color: #222f3d;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.write1{
+    color: white;
+}
+.write1 p{
+    display:block;
+    margin-top:10px;
+}
+.write2{
+    color:white;
+
+} 
+.write2 p{
+    display: block;
+    margin-top:10px;
+}
+.write3{
+    color:white;
+}
+.write3 p{
+    display: block;
+    margin-top:10px;
+}
+.write4{
+    color:white;
+}
+.write4 p{
+    display: block;
+    margin-top:10px;
+
+}
+ul{
+    margin-top:15px;
+}
+.haa{
+    background-color: #222f3d;
+    height:50px;
+    border-top:1.5px solid grey;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.AMAZON{
+    background-image: url("images.png");
+    height:47px;
+    width:100px;
+    background-size: cover;
+    justify-content: space-evenly;
+}
+
+.world{
+    height:25px;
+    width:100px;
+    border:1px solid grey;
+}
+.me{
+    display:flex;
+    color:darkgrey;
+    justify-content: center;
+    align-items: center;
+    margin-top:4.5px;
+
+}
